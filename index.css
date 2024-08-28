@@ -1,0 +1,48 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, purple, black)
+}
+
+.button-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button
+{
+    padding: 15px 20px;
+    font-size: 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover
+{
+    transition: 2s;
+    background-color: magenta;
+}
+
+@media (min-width: 600px)
+{
+    .button-container
+    {
+        flex-direction: row;
+    }
+
+    button
+    {
+        width: 200px;
+    }
+}

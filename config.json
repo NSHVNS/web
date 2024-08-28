@@ -1,0 +1,5 @@
+{
+    "url.discord": "https://discord.com",
+    "url.minecraft": "minecraft://?addExternalServer=NOMBRE|IP.DE.TU.SERVER|PUERTO",
+    "url.store": "https://www.tebex.io/"
+}
